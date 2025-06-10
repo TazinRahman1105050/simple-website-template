@@ -141,4 +141,22 @@ ul.main-menu li a.active {
 }
 
 
+#header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
 
+#header img {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.contact-info {
+  flex-grow: 1;
+  min-width: 200px;
+}
