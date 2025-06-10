@@ -141,25 +141,4 @@ ul.main-menu li a.active {
 }
 
 
-.nav-menu {
-  text-align: center;
-  padding-top: 10px;
-}
-
-.main-menu {
-  list-style: none;
-  display: inline-flex;
-  gap: 20px;
-  padding: 0;
-}
-
-.main-menu li a {
-  color: #999;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.main-menu li a:hover {
-  color: #e44d26;
-}
 
