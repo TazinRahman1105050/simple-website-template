@@ -141,22 +141,25 @@ ul.main-menu li a.active {
 }
 
 
-#header {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+.nav-menu {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.main-menu {
+  list-style: none;
+  display: inline-flex;
   gap: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
+  padding: 0;
 }
 
-#header img {
-  max-width: 120px;
-  height: auto;
-  border-radius: 8px;
+.main-menu li a {
+  color: #999;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.contact-info {
-  flex-grow: 1;
-  min-width: 200px;
+.main-menu li a:hover {
+  color: #e44d26;
 }
+
